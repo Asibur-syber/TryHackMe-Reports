@@ -29,8 +29,8 @@ I specialize in:
 | #  | Room Title                            | Report Link                                      |
 |----|----------------------------------------|--------------------------------------------------|
 | 01 | Introduction to Cyber Security         | [01_Introduction_to_Cyber_Security.md](01_Introduction_to_Cyber_Security_AsiburKhan.md) |
-| 02 | What is Hacking?                       | [02_What_is_Hacking.md](02_What_is_Hacking.md) |
-| 03 | CIA Triad                              | [03_CIA_Triad.md](03_CIA_Triad.md) |
+| 02 | What is Hacking?                       | [02_What_is_Hacking.md](02_What_is_Hacking_AsiburKhan) |
+| 03 | CIA Triad                              | [03_CIA_Triad.md](03_CIA_Triad_AsiburKhan.md) |
 | 04 | Encryption                             | [04_Encryption_Report_AsiburKhan.md](04_Encryption_Report_AsiburKhan.md) |
 | 05 | Networking Fundamentals                | [05_Networking_Fundamentals.md](05_Networking_Fundamentals.md) |
 | 06 | Network Services                       | [06_Network_Services.md](06_Network_Services.md) |
