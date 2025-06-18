@@ -1,2 +1,3 @@
 # TryHackMe-Reports
-40
+40+ Professional Reports from TryHackMe Rooms
+
