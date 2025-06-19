@@ -30,3 +30,7 @@ Identifying subdomains helps map the full attack surface and find potential vuln
 - Ran sublist3r to gather initial list of subdomains.  
   ```bash
   sublist3r -d target.com
+  ```bash
+  amass enum -d target.com
+  ```bash
+  dig subdomain.target.com
