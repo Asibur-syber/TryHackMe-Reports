@@ -4,7 +4,7 @@
  
 ✅ **Room:** Introduction to Cyber Security  
 🌐 **Platform:** [TryHackMe.com](https://tryhackme.com/)  
-👨‍💻 **Author:** **Asibur Khan** • [GitHub: Asibur-syber](https://github.com/Asibur-syber)  
+👨‍💻 **Author:** **Asibur Rahaman** • [GitHub: Asibur-syber](https://github.com/Asibur-syber)  
   
 📅 **Date:** June 18, 2025
 5
