@@ -6,26 +6,16 @@
 
 # 🐧 TRYHACKME ROOM REPORT — 05: LINUX FUNDAMENTALS 1  
 🔗 [Room Link → https://tryhackme.com/room/linuxfundamentals1](https://tryhackme.com/room/linuxfundamentals1)  
-📅 *Date Completed:* June 29, 2025  
-📂 *Category:* Linux Basics  
-🎯 *Focus:* Terminal Navigation, File Management, Permissions, Wildcards, Text Editing  
+📅 *Date Completed:* June 28, 2025  
+📂 *Category:* Operating System (Linux Basics)  
+🎯 *Focus:* File System Navigation, Commands, Shell Basics  
 🧩 *Difficulty:* 🟢 Beginner  
 
 ---
 
 ## 🧠 EXECUTIVE SUMMARY
 
-This TryHackMe room introduces foundational Linux terminal commands and system usage. For ethical hackers, this knowledge is essential to move within a target system, manipulate files, escalate privileges, and automate tasks using shell commands.
-
-Topics covered include:
-
-- Navigating file systems
-- Managing files and directories
-- File permissions and chmod
-- Using wildcards for flexible matching
-- Editing files with nano
-
-Mastering these fundamentals builds a strong base for Linux privilege escalation and exploitation.
+This room introduces users to the *Linux operating system*, which powers most servers, hacking labs, and cybersecurity tools. The room explains essential concepts such as *file system structure*, *basic terminal commands*, *permissions*, and *file handling*. These skills are foundational for ethical hackers, system administrators, and penetration testers.
 
 ---
 
@@ -33,174 +23,106 @@ Mastering these fundamentals builds a strong base for Linux privilege escalation
 
 ---
 
-### 1. Filesystem Navigation
+### 1. What is Linux?
 
-| Command     | Description                           |
-|-------------|---------------------------------------|
-| pwd       | Show current directory path           |
-| ls        | List files and folders in directory   |
-| `cd folder/`| Enter a folder                        |
-| cd ..     | Go one level back                     |
-| cd /      | Move to root directory                |
-| cd ~      | Move to home directory                |
+- Linux is a *UNIX-like open-source OS* used in servers, hacking labs, and embedded systems.
+- It provides a *terminal-based environment* for direct system control.
+
+📌 Hacker Insight: Most pentesting machines and tools (like Kali Linux) are Linux-based.
 
 ---
 
-### 2. Creating & Managing Files and Directories
+### 2. Linux File System Structure
 
-| Command                         | Description                         |
-|---------------------------------|-------------------------------------|
-| touch filename.txt            | Create an empty file                |
-| mkdir foldername              | Create a new folder                 |
-| mv old new                    | Rename or move file/folder          |
-| cp source dest                | Copy file/folder                    |
-| rm file.txt                   | Remove a file                       |
-| rm -r folder/                 | Remove a folder and contents        |
+Linux uses a *hierarchical file system* starting from / (root). Key directories:
 
----
+| Directory | Purpose |
+|----------|---------|
+| /home  | User files and directories |
+| /etc   | Configuration files |
+| /bin   | Essential binary commands |
+| /var   | Logs, spools |
+| /root  | Root user’s home |
+| /tmp   | Temporary files |
 
-### 3. Understanding Permissions & chmod
-
-Each file has 3 types of users:
-- *User (u)* — Owner
-- *Group (g)* — Assigned group
-- *Others (o)* — Everyone else
-
-Each user type can have:
-- *r*: Read
-- *w*: Write
-- *x*: Execute
-
-To view permissions:
-```bash
-ls -l
-
-To change permissions:
-
-chmod 755 file.sh   # User: rwx, Group: rx, Others: rx
-chmod u+x script.sh # Add execute to owner
-
-Value	Permission	Binary Meaning
-
-777	rwxrwxrwx	All: full access
-755	rwxr-xr-x	Common for scripts
-644	rw-r--r--	Files: read/write
-
-
+📌 Understanding these helps when exploiting misconfigurations or privilege escalation paths.
 
 ---
 
-### 4. Wildcards
+### 3. Navigating with the Terminal
 
-Wildcards help with multiple files:
+| Command        | Use                              |
+|----------------|-----------------------------------|
+| pwd          | Show current directory            |
+| ls           | List files/folders                |
+| cd /path     | Change directory                  |
+| clear        | Clear terminal                    |
+| file name    | Show file type                    |
 
-Wildcard	Description	Example
-
-*	Matches any string	ls *.txt
-?	Matches one character	ls file?.txt
-
-
-
----
-
-### 5. Editing Files Using nano
-
-nano is a lightweight terminal text editor.
-
-Shortcut	Function
-
-Ctrl + O	Save the file
-Ctrl + X	Exit editor
-Ctrl + K	Cut a line
-Ctrl + U	Paste a line
-
-
-Example:
-
-nano readme.txt
-# Inside nano: Write some text
-
+🧠 Every pentester must be comfortable with navigating the Linux file system from the command line.
 
 ---
 
-### 🧰 TOOLS & COMMANDS USED
+### 4. Working with Files and Directories
 
-Tool / Command	Purpose
+| Command                        | Description                          |
+|--------------------------------|--------------------------------------|
+| touch file.txt              | Create a file                        |
+| mkdir folder                | Create a directory                   |
+| cat file.txt                | Display file content                 |
+| rm file.txt                 | Delete a file                        |
+| rmdir folder                | Remove a directory                   |
+| cp src dest                 | Copy files/folders                   |
+| mv old new                  | Move or rename files/folders         |
 
-pwd	Print current working directory
-ls, ls -l	List directory contents
-cd, cd ..	Navigate directories
-mkdir, touch	Create folders and files
-mv, cp, rm	Move, copy, and remove files/folders
-chmod	Change file permission
-nano	Terminal text editor
-*, ?	Wildcard usage for flexible matching
-
-
-
----
-
-### 🖥️ PRACTICAL EXAMPLES
-
-Here are real commands executed during the lab:
-
-cd ~
-mkdir THM
-cd THM
-touch report.txt
-nano report.txt
-
-Inside nano, typed:
-
-Hello from Linux Fundamentals!
-
-Then ran:
-
-cp report.txt backup.txt
-mv backup.txt final.txt
-chmod 755 final.txt
-ls -l *.txt
-
-## 📥 Output:
-
--rwxr-xr-x 1 asibur asibur 31 Jun 29 12:12 final.txt
--rw-r--r-- 1 asibur asibur 31 Jun 29 12:11 report.txt
-
+📌 Common during exploitation when accessing config files or uploading payloads.
 
 ---
 
-### 📝 FINAL THOUGHTS
+### 5. Understanding Linux Shells
 
-Linux is at the heart of cybersecurity. Knowing terminal commands allows ethical hackers to:
+- *Shell* is the interface between user and OS (e.g., Bash, Zsh).
+- Commands are interpreted via shell scripting.
 
-Move through systems invisibly
-
-Handle sensitive files
-
-Bypass permission barriers
-
-Automate tasks with scripts
-
-
-This room teaches practical Linux usage that directly helps in real-world hacking.
-
+📌 Reverse shells rely on understanding how Linux interprets commands.
 
 ---
 
-"Before you can hack the system, you must first command the terminal."
+## 🧰 TOOLS & COMMANDS USED
 
-
+| Tool / Command    | Purpose                                 |
+|-------------------|-----------------------------------------|
+| pwd, ls, cd | Navigation                              |
+| touch, mkdir  | Create files and folders                |
+| rm, rmdir     | Remove files/folders                    |
+| cat, file     | View and inspect files                  |
+| whoami, id    | Check current user and permissions      |
+| man <command>   | View manual page for any command        |
 
 ---
 
-### 📂 NEXT STEPS
+## 🖥️ PRACTICAL EXAMPLES
 
-➡️ Move to the next room Linux Fundamentals Part 2 to learn:
+- 🧪 Used cd /etc && ls to explore configuration files  
+- 🧪 Ran touch test.txt and cat test.txt to create and view a file  
+- 🧪 Verified current user with whoami andid`  
+- 🧪 Used mkdir tools && cd tools to prepare a working directory  
+- 🧪 Used file command on a binary to identify its type  
+- 🧪 Used man ls to learn about listing options (e.g.,ls -la`)
 
-User & group management
+---
 
-File ownership with chown
+## 🔐 SECURITY INSIGHTS
 
-Process and service monitoring
+| Concept          | Relevance to Security                                |
+|------------------|------------------------------------------------------|
+| File Permissions | Improper settings may allow privilege escalation     |
+| Terminal Access  | Attackers use CLI to upload, modify, or delete files |
+| Shells           | Exploits often deliver reverse/bind shells           |
+| File System      | Malware often hides in /tmp, misused /etc        |
 
-Linux privilege enumeration
+---
+
+## 📝 FINAL THOUGHTS
+
+Mastering the Linux terminal is like learning the *language of hackers*. This room lays the foundation for *post-exploitation*, *privilege escalation*, and *red team operations*. From enumeration to maintaining access, Linux comm
