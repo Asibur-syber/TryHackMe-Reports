@@ -74,6 +74,7 @@ Each user type can have:
 To view permissions:
 ```bash
 ls -l
+
 To change permissions:
 
 chmod 755 file.sh   # User: rwx, Group: rx, Others: rx
@@ -89,7 +90,7 @@ Value	Permission	Binary Meaning
 
 ---
 
-4. Wildcards
+### 4. Wildcards
 
 Wildcards help with multiple files:
 
@@ -102,7 +103,7 @@ Wildcard	Description	Example
 
 ---
 
-5. Editing Files Using nano
+### 5. Editing Files Using nano
 
 nano is a lightweight terminal text editor.
 
@@ -122,7 +123,7 @@ nano readme.txt
 
 ---
 
-🧰 TOOLS & COMMANDS USED
+### 🧰 TOOLS & COMMANDS USED
 
 Tool / Command	Purpose
 
@@ -139,7 +140,7 @@ nano	Terminal text editor
 
 ---
 
-🖥️ PRACTICAL EXAMPLES
+### 🖥️ PRACTICAL EXAMPLES
 
 Here are real commands executed during the lab:
 
@@ -160,7 +161,7 @@ mv backup.txt final.txt
 chmod 755 final.txt
 ls -l *.txt
 
-📥 Output:
+## 📥 Output:
 
 -rwxr-xr-x 1 asibur asibur 31 Jun 29 12:12 final.txt
 -rw-r--r-- 1 asibur asibur 31 Jun 29 12:11 report.txt
@@ -168,7 +169,7 @@ ls -l *.txt
 
 ---
 
-📝 FINAL THOUGHTS
+### 📝 FINAL THOUGHTS
 
 Linux is at the heart of cybersecurity. Knowing terminal commands allows ethical hackers to:
 
@@ -188,14 +189,11 @@ This room teaches practical Linux usage that directly helps in real-world hackin
 
 "Before you can hack the system, you must first command the terminal."
 
-— Asibur Rahaman
-
-
 
 
 ---
 
-📂 NEXT STEPS
+### 📂 NEXT STEPS
 
 ➡️ Move to the next room Linux Fundamentals Part 2 to learn:
 
