@@ -151,8 +151,7 @@ Linux Fundamentals 3 gives **deep control-level understanding** of how Linux enf
 ## 🚀 NEXT STEPS
 
 ✅ Practice permission modification and PATH hijacking in labs  
-✅ Study SUID/SGID files and privilege escalation vectors  
-✅ Prepare for **Room 08: Intro to Shells**, focusing on reverse shells and scripting  
+✅ Study SUID/SGID files and privilege escalation vectors 
 
 ---
 
