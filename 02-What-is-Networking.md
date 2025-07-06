@@ -1,15 +1,15 @@
 # 🧑‍💻 ASIBUR RAHAMAN  
-*Ethical Hacker | Network Recon Specialist | Red Team Enthusiast*  
+Ethical Hacker | Network Recon Specialist | Red Team Enthusiast  
 🔗 GitHub: [github.com/Asibur-syber](https://github.com/Asibur-syber)
 
 ---
 
 # 📡 TRYHACKME ROOM REPORT — 02: WHAT IS NETWORKING  
 🔗 [Room Link → https://tryhackme.com/room/whatisnetworking](https://tryhackme.com/room/whatisnetworking)  
-📅 *Date Completed:* June 27, 2025  
-📂 *Category:* Networking Fundamentals  
-🎯 *Focus:* IP Address, DNS, Ports, Protocols, OSI Model  
-🧩 *Difficulty:* 🟢 Beginner  
+📅 Date Completed: June 27, 2025  
+📂 Category: Networking Fundamentals  
+🎯 Focus: IP Address, DNS, Ports, Protocols, OSI Model  
+🧩 Difficulty: 🟢 Beginner  
 
 ---
 
@@ -32,8 +32,8 @@ Networking is the process by which multiple devices (computers, phones, routers)
 ### 2. IP Address
 
 An IP address is a unique identifier for each device on a network. There are two types:
-- *Private IP:* Used inside local networks (e.g., 192.168.1.5)
-- *Public IP:* Used on the internet (provided by ISP)
+- Private IP: Used inside local networks (e.g., 192.168.1.5)
+- Public IP: Used on the internet (provided by ISP)
 
 Understanding IPs is vital for network mapping and attacks.
 
@@ -58,8 +58,8 @@ Each port number corresponds to a specific service.
 
 ### 5. Protocols: TCP vs UDP
 
-- *TCP* is connection-oriented and reliable — ensures data delivery.
-- *UDP* is faster but connectionless and does not guarantee delivery.
+- TCP is connection-oriented and reliable — ensures data delivery.
+- UDP is faster but connectionless and does not guarantee delivery.
 
 ---
 
@@ -110,7 +110,7 @@ Networking forms the backbone of all cybersecurity operations. Thorough knowledg
 
 ---
 
-**“Understanding networking is the first step towards mastering cybersecurity.”**  
+*“Understanding networking is the first step towards mastering cybersecurity.”*  
 — Asibur Rahaman
 
 
@@ -118,7 +118,7 @@ Networking forms the backbone of all cybersecurity operations. Thorough knowledg
 
 ## 📂 NEXT STEPS
 
-Proceed to the next room *“Network Fundamentals”* to dive deeper into subnetting, DHCP, NAT, and VPN concepts.
+Proceed to the next room “Network Fundamentals” to dive deeper into subnetting, DHCP, NAT, and VPN concepts.
 
 ---
 
