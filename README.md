@@ -1,90 +1,118 @@
-# 🚀 TryHackMe 40 Rooms – Ethical Hacking Reports
+# 🛡 TryHackMe Report Collection by Asibur Rahaman
 
-Welcome to my professional collection of *40 TryHackMe Room Reports*, created as part of my journey to become a successful ethical hacker and junior penetration tester. Each report includes real hands-on tasks, tool usage, vulnerabilities, and practical write-ups that reflect real-world skills in cybersecurity.
+Welcome to my *Cyber Security Portfolio* — a curated showcase of 40+ real-world hacking reports based on hands-on labs from [TryHackMe](https://tryhackme.com).
 
-🔐 **Platform:** [TryHackMe.com](https://tryhackme.com/)  
-👨‍💻 **Created by:** Asibur Khan  
-🌍 **GitHub:** [Asibur-syber](https://github.com/Asibur-syber)  
-📅 **Last Updated:** June 2025
-5
+This repository reflects my practical journey to become a skilled and income-generating *Ethical Hacker*, with specialization in:
 
----
-
-## 🙋‍♂️ About Me
-
-I'm *Asibur Khan*, a passionate cybersecurity learner on a mission to become a professional penetration tester.  
-I specialize in:
-- 🛡️ Ethical Hacking & Offensive Security
-- 🌐 Web Application Pentesting
-- 🧠 TryHackMe & CTF Labs
-- 💻 Linux, Networking, and Digital Forensics
-📬 *I'm open for internships, freelance projects, and collaborations on bug bounties.*  
-🔗 GitHub: [github.com/Asibur-syber](https://github.com/Asibur-syber)
-)
+- ✅ Penetration Testing & Vulnerability Scanning  
+- ✅ Bug Bounty Hunting & Web Exploitation  
+- ✅ Linux/Windows Privilege Escalation  
+- ✅ Real-World CTF Challenges  
+- ✅ Professional Report Writing for Clients (Fiverr + GitHub)
 
 ---
 
-## 📚 Table of Contents (40 Reports)
+## 🎯 Goal: Consistent Income through Cybersecurity
 
-| #  | Room Title                            | Report Link                                      |
-|----|----------------------------------------|--------------------------------------------------|
-| 01 | Introduction to Cyber Security         | [01_Introduction_to_Cyber_Security.md](01_Introduction_to_Cyber_Security_AsiburKhan.md) |
-| 02 | What is Hacking?                       | [02_What_is_Hacking.md](02_What_is_Hacking_AsiburKhan) |
-| 03 | CIA Triad                              | [03_CIA_Triad.md](03_CIA_Triad_AsiburKhan.md) |
-| 04 | Encryption                             | [04_Encryption_Report_AsiburKhan.md](04_Encryption_Report_AsiburKhan.md) |
-| 05 | Networking Fundamentals                | [05_Networking_Fundamentals.md](05_Networking_Fundamentals.md) |
-| 06 | Network Services                       | [06_Network_Services.md](06_Network_Services.md) |
-| 07 | Web Application Security               | [07_Web_Application_Security.md](07_Web_Application_Security.md) |
-| 08 | Linux Fundamentals Part 1              | [08_Linux_Fundamentals_Part1.md](08_Linux_Fundamentals_Part1.md) |
-| 09 | Linux Fundamentals Part 2              | [09_Linux_Fundamentals_Part2.md](09_Linux_Fundamentals_Part2.md) |
-| 10 | Linux Fundamentals Part 3              | [10_Linux_Fundamentals_Part3.md](10_Linux_Fundamentals_Part3.md) |
-| 11 | Windows Fundamentals Part 1            | [11_Windows_Fundamentals_Part1.md](11_Windows_Fundamentals_Part1.md) |
-| 12 | Windows Fundamentals Part 2            | [12_Windows_Fundamentals_Part2.md](12_Windows_Fundamentals_Part2.md) |
-| 13 | Windows Fundamentals Part 3            | [13_Windows_Fundamentals_Part3.md](13_Windows_Fundamentals_Part3.md) |
-| 14 | Attacking Web Applications with Ffuf   | [14_Attacking_With_Ffuf.md](14_Attacking_With_Ffuf.md) |
-| 15 | Intro to Defensive Security            | [15_Defensive_Security.md](15_Defensive_Security.md) |
-| 16 | Digital Forensics                      | [16_Digital_Forensics.md](16_Digital_Forensics.md) |
-| 17 | Threat Intelligence                    | [17_Threat_Intelligence.md](17_Threat_Intelligence.md) |
-| 18 | SOC Level 1                            | [18_SOC_Level_1.md](18_SOC_Level_1.md) |
-| 19 | Phishing Emails                        | [19_Phishing_Emails.md](19_Phishing_Emails.md) |
-| 20 | Intro to Researching                   | [20_Intro_to_Researching.md](20_Intro_to_Researching.md) |
-| 21 | Intro to Pentesting                    | [21_Intro_to_Pentesting.md](21_Intro_to_Pentesting.md) |
-| 22 | Pentesting Methodologies               | [22_Pentesting_Methodologies.md](22_Pentesting_Methodologies.md) |
-| 23 | OWASP Top 10                           | [23_OWASP_Top_10.md](23_OWASP_Top_10.md) |
-| 24 | Burp Suite Basics                      | [24_Burp_Suite_Basics.md](24_Burp_Suite_Basics.md) |
-| 25 | Web Exploitation Basics                | [25_Web_Exploitation_Basics.md](25_Web_Exploitation_Basics.md) |
-| 26 | Information Gathering                  | [26_Information_Gathering.md](26_Information_Gathering.md) |
-| 27 | Google Dorking                         | [27_Google_Dorking.md](27_Google_Dorking.md) |
-| 28 | Subdomain Enumeration                  | [28_Subdomain_Enumeration.md](28_Subdomain_Enumeration.md) |
-| 29 | Dirbuster/Dirb/Gobuster                | [29_Directory_Brute_Force.md](29_Directory_Brute_Force.md) |
-| 30 | Nmap                                   | [30_Nmap.md](30_Nmap.md) |
-| 31 | Nikto                                  | [31_Nikto.md](31_Nikto.md) |
-| 32 | Hydra                                  | [32_Hydra.md](32_Hydra.md) |
-| 33 | John the Ripper                        | [33_John_The_Ripper.md](33_John_The_Ripper.md) |
-| 34 | Hash Cracking                          | [34_Hash_Cracking.md](34_Hash_Cracking.md) |
-| 35 | Vulnerability Scanning                 | [35_Vulnerability_Scanning.md](35_Vulnerability_Scanning.md) |
-| 36 | Intro to Metasploit                    | [36_Intro_to_Metasploit.md](36_
-| 37 | TryHackMe: Blue                        | [37_Blue.md](37_Blue.md) |
-| 38 | TryHackMe: Vulnversity                 | [38_Vulnversity.md](38_Vulnversity.md) |
-| 39 | TryHackMe: Simple CTF                  | [39_Simple_CTF.md](39_Simple_CTF.md) |
-| 40 | Report Writing                         | [40_Report_Writing.md](40_Report_Writing.md) |
+Over just *2 months, I’ve completed and documented the **Top 40 Rooms on TryHackMe* — handpicked to build *real income potential* via:
+
+- 📘 Solid foundational skills  
+- 🌐 Web Hacking with Burp Suite  
+- 🔓 CTF-style exploitation labs  
+- 🔧 Privilege Escalation & Tool Mastery  
+- 📄 Professional Pentest Report Writing
+
+> 💰 My goal is not just to learn hacking — it's to turn *hands-on skills into income*.
 
 ---
 
-## 🧠 Why This Matters
+## 📦 40 Room List with Direct TryHackMe Links
 
-Each of these reports represents a real step forward in mastering the world of cyber security. I didn’t just complete rooms — I practiced tools, wrote exploits, cracked hashes, ran scans, and documented everything.
-
-📌 This project shows:
-- My technical knowledge
-- My ability to write professional pentest reports
-- My dedication to learning and working in cybersecurity
+| #  | Room Name                        | TryHackMe Link |
+|----|----------------------------------|----------------|
+| 01 | Introduction to Cyber Security  | [🔗 Visit](https://tryhackme.com/room/introductiontocybersecurity) |
+| 02 | What is Networking              | [🔗 Visit](https://tryhackme.com/room/whatisnetworking) |
+| 03 | Network Fundamentals            | [🔗 Visit](https://tryhackme.com/room/networkfundamentals) |
+| 04 | Learn Networking                | [🔗 Visit](https://tryhackme.com/room/learnnetworking) |
+| 05 | Linux Fundamentals 1            | [🔗 Visit](https://tryhackme.com/room/linuxfundamentals1) |
+| 06 | Linux Fundamentals 2            | [🔗 Visit](https://tryhackme.com/room/linuxfundamentals2) |
+| 07 | Linux Fundamentals 3            | [🔗 Visit](https://tryhackme.com/room/linuxfundamentals3) |
+| 08 | Windows Fundamentals 1          | [🔗 Visit](https://tryhackme.com/room/windowsfundamentals1) |
+| 09 | Windows Fundamentals 2          | [🔗 Visit](https://tryhackme.com/room/windowsfundamentals2) |
+| 10 | Windows Fundamentals 3          | [🔗 Visit](https://tryhackme.com/room/windowsfundamentals3) |
+| 11 | What is the Web                 | [🔗 Visit](https://tryhackme.com/room/whatisweb) |
+| 12 | How Websites Work              | [🔗 Visit](https://tryhackme.com/room/howwebsiteswork) |
+| 13 | Burp Suite: Repeater            | [🔗 Visit](https://tryhackme.com/room/burpsuiterepeater) |
+| 14 | Burp Suite: Intruder            | [🔗 Visit](https://tryhackme.com/room/burpsuiteintruder) |
+| 15 | Intro to Web Hacking            | [🔗 Visit](https://tryhackme.com/room/introtowebhacking) |
+| 16 | Injection                       | [🔗 Visit](https://tryhackme.com/room/injection) |
+| 17 | Brute Force                     | [🔗 Visit](https://tryhackme.com/room/bruteforce) |
+| 18 | Broken Authentication           | [🔗 Visit](https://tryhackme.com/room/brokenauthentication) |
+| 19 | OWASP Top 10                    | [🔗 Visit](https://tryhackme.com/room/owasptop10) |
+| 20 | Web Fundamentals                | [🔗 Visit](https://tryhackme.com/room/webfundamentals) |
+| 21 | Vulnversity                     | [🔗 Visit](https://tryhackme.com/room/vulnversity) |
+| 22 | Pickle Rick                     | [🔗 Visit](https://tryhackme.com/room/picklerick) |
+| 23 | Blue                            | [🔗 Visit](https://tryhackme.com/room/blue) |
+| 24 | Simple CTF                      | [🔗 Visit](https://tryhackme.com/room/simplectf) |
+| 25 | Bounty Hacker                   | [🔗 Visit](https://tryhackme.com/room/bountyhacker) |
+| 26 | Daily Bugle                     | [🔗 Visit](https://tryhackme.com/room/dailybugle) |
+| 27 | Internal                        | [🔗 Visit](https://tryhackme.com/room/internal) |
+| 28 | Steel Mountain                  | [🔗 Visit](https://tryhackme.com/room/steelmountain) |
+| 29 | Ignite                          | [🔗 Visit](https://tryhackme.com/room/ignite) |
+| 30 | Relevant                        | [🔗 Visit](https://tryhackme.com/room/relevant) |
+| 31 | Nmap                            | [🔗 Visit](https://tryhackme.com/room/nmap) |
+| 32 | Gobuster                        | [🔗 Visit](https://tryhackme.com/room/gobuster) |
+| 33 | Nikto                           | [🔗 Visit](https://tryhackme.com/room/nikto) |
+| 34 | Subdomain Enumeration           | [🔗 Visit](https://tryhackme.com/room/subdomainenumeration) |
+| 35 | Google Dorking                  | [🔗 Visit](https://tryhackme.com/room/googledorking) |
+| 36 | File Inclusion                  | [🔗 Visit](https://tryhackme.com/room/fileinc) |
+| 37 | Linux Privilege Escalation      | [🔗 Visit](https://tryhackme.com/room/linuxprivilegeescalation) |
+| 38 | Windows Privilege Escalation    | [🔗 Visit](https://tryhackme.com/room/windowsprivesc) |
+| 39 | Post Exploitation Basics        | [🔗 Visit](https://tryhackme.com/room/postexploit) |
+| 40 | Report Writing Room             | [🔗 Visit](https://tryhackme.com/room/reportwriting) |
 
 ---
 
-## 📩 Contact Me
+## 🧾 What’s Inside Each Report?
 
-If you're looking for a committed learner or junior pentester to join your team or freelance project:
-🧑‍💻 **Asibur Khan**  
-📧 Email: *[asib51639@gmail.com]*  
-🌐 GitHub: [github.com/Asibur-syber](https://github.com/Asibur-syber)
+Every report includes:
+
+- ✅ Executive Summary (client-ready format)  
+- ✅ Step-by-step attack walkthrough  
+- ✅ Key tools: Nmap, Hydra, Gobuster, Burp Suite, SQLMap  
+- ✅ All flags captured (user & root)  
+- ✅ Security issues & mitigation advice  
+- ✅ GitHub/Fiverr-ready Markdown format
+
+---
+
+## 💼 My Career Strategy
+
+I'm leveraging these skills to build real-world income via:
+
+- 🧪 *Freelance Pentesting Services* on Fiverr  
+- 🛡 *Web & App Security Testing* for clients  
+- 🐞 *Bug Hunting* on platforms like HackerOne & Bugcrowd  
+- 📁 *Showcasing Reports* on GitHub for recruiter visibility
+
+---
+
+## 🤝 Let’s Connect!
+
+| Platform      | Link |
+|---------------|------|
+| 📧 Email       | asib51639@gmail.com |
+| 🛠 Fiverr      | [🔗 Visit My Fiverr Profile](https://www.fiverr.com/) (Coming Soon) |
+| 🌐 Portfolio    | Launching Soon |
+| 🐙 GitHub      | [🔗 Asibur-syber](https://github.com/Asibur-syber) |
+
+---
+
+## 🌟 Let’s Build Cybersecurity That Pays
+
+> ⚡ "Skill × Consistency × Visibility = Real Income"  
+> 💡 If you're good at hacking, show it well — and the clients will come.
+
+---
+
+⭐ If you found this helpful or impressive, feel free to ⭐ star or fork this repo!
